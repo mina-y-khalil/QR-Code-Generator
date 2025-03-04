@@ -25,7 +25,7 @@ This is a simple Node.js application that generates a **QR code** from a user-pr
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/QR-Code-Generator.git
+git clone https://github.com/mina-y-khalil/QR-Code-Generator.git
 cd QR-Code-Generator
 ```
 
