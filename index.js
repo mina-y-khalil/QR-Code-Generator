@@ -16,8 +16,8 @@ inquirer
     const qrFilename = `qr_${timestamp}.png`; // Unique filename
     const textFilename = `URL_${timestamp}.txt`; // Unique text file
 
-    var qr_svg = qr.image(url, { type: "png" });
-    qr_svg.pipe(fs.createWriteStream(qrFilename));
+    var qr_png = qr.image(url, { type: "png" });
+    qr_png.pipe(fs.createWriteStream(qrFilename));
 
     fs.writeFile(textFilename, url, (err) => {
       if (err) throw err;
